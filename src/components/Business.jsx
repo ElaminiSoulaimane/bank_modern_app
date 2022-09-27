@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function Business() {
+const Business = () => {
   return (
     <div>Business</div>
   )
 }
+
+export default Business

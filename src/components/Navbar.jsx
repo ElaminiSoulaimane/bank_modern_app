@@ -34,7 +34,7 @@ const Navbar = () => {
         />
 
         <div
-          className={`${
+          className={`sm:hidden ${
             !toggle ? "hidden" : "flex"
           } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
         >
